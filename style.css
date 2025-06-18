@@ -1,0 +1,92 @@
+.header {
+    background: #203763;
+    position: relative;
+    width: 1440px;
+    height: 200px;
+    flex-shrink: 0;
+    font-family: Roboto;
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    a {
+        color: #ffffff;
+        text-align: center;
+        width: 506px;
+        height: 105px;
+        flex-shrink: 0;
+        text-decoration: none;
+    }
+}
+
+.dnk {
+    width: 225px;
+    height: 125px;
+    flex-shrink: 0;
+    aspect-ratio: 34250/450.00;
+    left: 1018px;
+    top: 47px;
+    position: absolute
+}
+
+.arrow1 {
+    width: 86px;
+    height: 146px;
+    flex-shrink: 0;
+    aspect-ratio: 43/73;
+    top: 450px;
+    left: 666px;
+    right: 688px;
+    position: relative;
+}
+
+body {
+    background-color: #F5F5F5;
+}
+
+.box {
+    width: 1440px;
+    height: 260px;
+}
+
+.box .vuvedenie {
+    position: absolute;
+    width: 1444px;
+    height: 260px;
+    bottom: 2800px;
+    top: 900px;
+}
+
+.box .overlap-group {
+    position: absolute;
+    width: 1440px;
+    height: 260px;
+    background-color: #203763;
+}
+
+.box .text-wrapper {
+    position: absolute;
+    width: 960px;
+    top: 124px;
+    left: 240px;
+    font-family: "Roboto-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.box .div {
+    position: absolute;
+    top: 55px;
+    left: 424px;
+    font-family: "Roboto-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 36px;
+    text-align: right;
+    letter-spacing: 0;
+    line-height: normal;
+}
